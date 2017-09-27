@@ -1,4 +1,20 @@
-# The General Rule
+---
+title: Web Basics Workshop
+separator: <!--s-->
+verticalSeparator: <!--v-->
+theme: solarized
+revealOptions:
+    transition: 'fade'
+---
+
+# CSS Basics
+
+<!--s-->
+
+
+## The General Rule
+
+<!-- .element: class="fragment" data-fragment-index="1" -->
 ```css
 selector {
   property: value;
@@ -6,9 +22,9 @@ selector {
 }
 ``` 
 
----
+<!--v-->
 
-# Examples
+### Examples
 ```css
 /*Make All h1's purple and 56px font*/
 h1 {
@@ -24,9 +40,10 @@ img {
 }
 ```
 
----
+<!--s-->
 
-# Where do we write our styles 
+#### Where do we write our styles
+
 Inline:
 ```html
 <h3 style="color: pink;">blah blah blah </h3>
@@ -34,6 +51,11 @@ Inline:
 
 <p style="color: yellow;">blah blah blah </p>
 ```
+
+<!--v-->
+
+#### Where do we write our styles
+
 StyleTag:
 ```html
 <html>
@@ -47,11 +69,11 @@ StyleTag:
 </head>
 ````
 
-## Thats a bad Idea!!!
+#### Thats a bad Idea!!!
 
----
+<!--v-->
 
-# Write your CSS in a seperate file
+### Write your CSS in a seperate file
 
 HTML File:
 ```html
@@ -78,11 +100,13 @@ h3 {
 }
 ```
 
-***
+<!--s-->
 
 # Colors in CSS
 
-## Built in colors
+<!--v-->
+
+### Built in colors
 
 ```css
 h1 {
@@ -102,15 +126,17 @@ h3 {
 <h1>I'm a h1</h1>
 <h2>I'm a h2</h2>
 <h3>I'm a h3</h3>
-````
+```
 
-<h1 style="color: red">I'm a h1</h1>
-<h2 style="color: cornflowerBlue">I'm a h2</h2>
-<h3 style="color: darkOrchid">I'm a h3</h3>
+<div style="display: flex; justify-content: space-around; align-items: center;">
+<h2 style="color: red">I'm a h1</h2>
+<h3 style="color: cornflowerBlue">I'm a h2</h3>
+<h4 style="color: darkOrchid">I'm a h3</h4>
+</div>
 
----
+<!--v-->
 
-## Hexadecimal
+### Hexadecimal
 
 ```css
 h1 {
@@ -130,15 +156,17 @@ h3 {
 <h1>I'm a h1</h1>
 <h2>I'm a h2</h2>
 <h3>I'm a h3</h3>
-````
+```
 
-<h1 style="color: #000000">I'm a h1</h1>
-<h2 style="color: #4B0082">I'm a h2</h2>
-<h3 style="color: #FF1493">I'm a h3</h3>
+<div style="display: flex; justify-content: space-around; align-items: center;">
+<h2 style="color: #000000">I'm a h1</h2>
+<h3 style="color: #4B0082">I'm a h2</h3>
+<h4 style="color: #FF1493">I'm a h3</h4>
+</div>
 
----
+<!--v-->
 
-## RGB
+### RGB
 
 ```css
 h1 {
@@ -152,21 +180,23 @@ h2 {
 h3 {
   color: rgb(11, 99, 150);
 }
-````
+```
 
 ```html
 <h1>I'm a h1</h1>
 <h2>I'm a h2</h2>
 <h3>I'm a h3</h3>
-````
+```
 
-<h1 style="color: rgb(0,255,0)">I'm a h1</h1>
-<h2 style="color: rgb(100, 0, 100)">I'm a h2</h2>
-<h3 style="color: rgb(11, 99, 150)">I'm a h3</h3>
+<div style="display: flex; justify-content: space-around; align-items: center;">
+<h2 style="color: rgb(0,255,0)">I'm a h1</h2>
+<h3 style="color: rgb(100, 0, 100)">I'm a h2</h3>
+<h4 style="color: rgb(11, 99, 150)">I'm a h3</h4>
+</div>
 
----
+<!--v-->
 
-## RGBA
+### RGBA
 
 ```css
 h1 {
@@ -186,15 +216,17 @@ h3 {
 <h1>I'm a h1</h1>
 <h2>I'm a h2</h2>
 <h3>I'm a h3</h3>
-````
+```
 
-<h1 style="color: rgba(11, 99, 150, 1)">I'm a h1</h1>
-<h2 style="color: rgba(11, 99, 150, .6)">I'm a h2</h2>
-<h3 style="color: rgba(11, 99, 150, .2)">I'm a h3</h3>
+<div style="display: flex; justify-content: space-around; align-items: center;">
+<h2 style="color: rgba(11, 99, 150, 1)">I'm a h1</h2>
+<h3 style="color: rgba(11, 99, 150, .6)">I'm a h2</h3>
+<h4 style="color: rgba(11, 99, 150, .2)">I'm a h3</h4>
+</div>
 
----
+<!--v-->
 
-## Color and Background
+### Color and Background
 
 ```css
 div{
@@ -204,7 +236,7 @@ div{
 p {
   color: #ecf0f1;
 }
-````
+```
 
 ```html
 <div>
@@ -212,16 +244,19 @@ p {
   <p>Goodbye</p>
 </div>
 ```
+
 <div style="background: #3498db">
   <p style="color: #ecf0f1">Hello</p>
   <p style="color: #ecf0f1">Goodbye</p>
 </div>
 
----
+<!--s-->
 
 # CSS Selectors
 
-## Element Selectors
+<!--v-->
+
+### Element Selectors
 
 ```html
 <div>
@@ -233,7 +268,7 @@ p {
   <p>You say goodbye</p>
   <p>I say hello </p>
 </div>
-````
+```
 
 ```css
 div{
@@ -243,7 +278,10 @@ div{
 p {
   color: yellow;
 }
-````
+```
+<!--v-->
+
+### Example
 
 <div style="background: purple">
   <p style="color: yellow">You say yes</p>
@@ -255,9 +293,9 @@ p {
   <p style="color: yellow">I say hello </p>
 </div>
 
----
+<!--v-->
 
-## ID Selector
+### ID Selector
 
 ```html
 <div>
@@ -269,7 +307,7 @@ p {
   <p>You say goodbye</p>
   <p id="special">I say hello </p>
 </div>
-````
+```
 
 ```css
 div{
@@ -279,7 +317,11 @@ div{
 #special {
   color: yellow;
 }
-````
+```
+
+<!--v-->
+
+### Example
 
 <div style="background: purple">
   <p>You say yes</p>
@@ -291,9 +333,9 @@ div{
   <p style="color: yellow">I say hello </p>
 </div>
 
----
+<!--v-->
 
-## Class Selector
+### Class Selector
 
 ```html
 <div>
@@ -305,7 +347,7 @@ div{
   <p class="highlight">You say goodbye</p>
   <p>I say hello </p>
 </div>
-````
+```
 
 ```css
 div{
@@ -315,7 +357,11 @@ div{
 .highlight {
   color: yellow;
 }
-````
+```
+
+<!--v-->
+
+### Example
 
 <div style="background: purple">
   <p style="color: yellow">You say yes</p>
@@ -327,9 +373,9 @@ div{
   <p>I say hello </p>
 </div>
 
----
+<!--s-->
 
-# Box Model
+### Box Model
 
 - Content
 - Padding
