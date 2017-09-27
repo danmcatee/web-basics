@@ -20,13 +20,14 @@ There are two kinds of tags:
 * Tags that have closing counterpart (`<html></html>`)
 * Tags that are self enclosing (`<input/>`)
 Nesting multiple tags creates a hierarchical structure:
-´´´html
+
+```html
  <html>
    <head>
-       ...
+       
    </head>
    <body>
-       ...
+       
    </body>
  </html>
  ```
