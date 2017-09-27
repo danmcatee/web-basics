@@ -12,7 +12,8 @@
 * an HTML document consists mainly of a head and a body
 * the head part is for providing meta information about the document (title, char-encoding, ...)
 * the body part contains everything that is being displayed by the browser
-````html
+
+```html
 <!Doctype html>
 <html lang="en">
   <head>
