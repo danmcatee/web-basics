@@ -114,7 +114,7 @@ h3 {
 
 ```css
 h1 {
-  color: #ffffff;
+  color: #000000;
 }
 
 h2 {
@@ -132,7 +132,7 @@ h3 {
 <h3>I'm a h3</h3>
 ````
 
-<h1 style="color: #ffffff">I'm a h1</h1>
+<h1 style="color: #000000">I'm a h1</h1>
 <h2 style="color: #4B0082">I'm a h2</h2>
 <h3 style="color: #FF1493">I'm a h3</h3>
 
