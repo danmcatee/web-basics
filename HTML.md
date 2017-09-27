@@ -42,7 +42,7 @@ Nesting multiple tags creates a hierarchical structure:
 <p> Lorem ips.. </p> <!-- Paragraphs for blocks of plain text -->
 <div> ... </div> <!-- A div tag, used very, very often. Especially for grouping elements -->
 <a href="catgif.jpg"> ... </a> <!-- A Link! The href part defines where it links to -->
-<input type="text"> <!-- Declare some kind of user input, in this case a text input. Does not have a closing tag! -->
+<input type="text"/> <!-- Declare some kind of user input, in this case a text input. Does not have a closing tag! -->
  ```
 
 ## Attributes
@@ -57,12 +57,12 @@ Attributes can be added to a tag in order to define an aspect of its functionali
 * attributes with values that need to match some format, but can be chosen freely
 ```html
 <input type="text" maxlenght="10"> <!-- Multiple attributes are possible! This input element is of the 'text' kind, but only allows 10 characters as input. -->
-<input type="text" maxlength="100"> <!-- But you can make it a 100 aswell! As long as the value of the attribute is a positive integer, it doesn't matter. -->
+<input type="text" maxlength="100"> <!-- But you can make it a 100 as well! As long as the value of the attribute is a positive integer, it doesn't matter. -->
 <input type="text" maxlength="unicorn"> <!-- Won't do either. unicorn is not an integer -->
 ```
 * attributes with values that don't need to match any format
 ```html
-<p title="This literally can be everything $$cheesecake123"> ... </p>
+<p title="This can be literally everything: $$cheesecake123"> ... </p>
 ```
 * standalone attributes
 ```html
@@ -71,7 +71,7 @@ Attributes can be added to a tag in order to define an aspect of its functionali
 
 ## Important Attributes
 
-The 'lang' attribute declares the language. This is importan for accessability applications and search engines.
+The 'lang' attribute declares the language. This is important for accessability applications and search engines.
 ```html
 <html lang="en-US">
 ```
@@ -87,7 +87,7 @@ The 'id' attribute specifies a unique id for an html element. This is useful for
 ```html
 <h1 id="title-one">Hello Title!</h1>
 ```
-Similar, the 'class' attribute also makes possible to group one or more elements under a classname. Again, this is needed when working with CSS and/or JavaScript
+Similar, the 'class' attribute also makes possible to group one or more elements under a class name. Again, this is needed when working with CSS and/or JavaScript
 ```html
 <h1 class="intro">Header 1</h1>
 <p>A paragraph.</p>
