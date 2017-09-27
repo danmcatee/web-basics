@@ -62,10 +62,12 @@ Attributes can be added to a tag in order to define an aspect of its functionali
 <input type="text" maxlength="unicorn"> <!-- Won't do either. unicorn is not an integer -->
 ```
 * attributes with values that don't need to match any format
+
 ```html
 <p title="This can be literally everything: $$cheesecake123"> ... </p>
 ```
 * standalone attributes
+
 ```html
 <input type="text" readonly> <!-- Because of the 'readonly' attribute, a user won't be able to modify the text in the input field -->
 ```
