@@ -1,3 +1,3 @@
 # Web Basics Talk
 
-[CSS Basics](./CSS)
+[CSS Basics](CSS.md)
