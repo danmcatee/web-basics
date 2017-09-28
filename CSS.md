@@ -381,3 +381,52 @@ div{
 - Padding
 - Border
 - Margin
+
+
+<img src=https://pressupinc.com/wp-content/uploads/2014/01/box-model.png width=260 height=260 />
+
+### Example
+
+```css
+div {
+  padding: 50px 30px 50px 80px;
+}
+
+div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+p {
+    border: 5px solid red;
+}
+
+ div {
+    margin-top: 100px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+    margin-left: 80px;
+}
+
+div {
+    margin: 100px 150px 100px 80px;
+}
+
+p {
+    position: absolute;
+    // possible values:
+    // static, absolute, fixed, relative, sticky, initial, inherit
+	
+}
+
+```
+
+-> F&uuml;r diese Beispiele habe ich ein extra HTML-file angelegt. 
+
+
+
+
+
+
