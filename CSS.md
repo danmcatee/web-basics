@@ -14,13 +14,14 @@ revealOptions:
 
 ## The General Rule
 
-<!-- .element: class="fragment" data-fragment-index="1" -->
+
 ```css
 selector {
   property: value;
   anotherProperty: value;
 }
 ``` 
+<!-- .element: class="fragment" data-fragment-index="1" -->
 
 <!--v-->
 
@@ -52,6 +53,9 @@ Inline:
 <p style="color: yellow;">blah blah blah </p>
 ```
 
+<h3 style="color:red">That's a BAD Idea!!!</h3>
+<!-- .element: class="fragment" data-fragment-index="1" -->
+
 <!--v-->
 
 #### Where do we write our styles
@@ -69,13 +73,13 @@ StyleTag:
 </head>
 ````
 
-#### Thats a bad Idea!!!
+<h3 style="color:red">Slightly better, but not GOOD</h3>
+<!-- .element: class="fragment" data-fragment-index="1" -->
 
 <!--v-->
 
 ### Write your CSS in a seperate file
 
-HTML File:
 ```html
 <!DOCTYPE html>
 <html>
@@ -89,7 +93,6 @@ HTML File:
 </html>
 ```
 
-CSS File:
 ```css
 h1 {
   color: purple;
@@ -249,6 +252,7 @@ p {
   <p style="color: #ecf0f1">Hello</p>
   <p style="color: #ecf0f1">Goodbye</p>
 </div>
+<!-- .element: class="fragment" data-fragment-index="1" -->
 
 <!--s-->
 
