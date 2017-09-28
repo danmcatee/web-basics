@@ -66,7 +66,7 @@ There are two kinds of tags:
 <!-- .element: class="fragment" data-fragment-index="4" -->
 * Tags that are self enclosing <!-- .element: class="fragment" data-fragment-index="5" --> `<input/>`
 <!-- .element: class="fragment" data-fragment-index="6" -->
-Nesting multiple tags creates a hierarchical structure:
+* Nesting multiple tags creates a hierarchical structure:
 <!-- .element: class="fragment" data-fragment-index="7" -->
 
 <!--s-->
@@ -74,21 +74,29 @@ Nesting multiple tags creates a hierarchical structure:
 ### Example
 
 ```html
- <html> ... </html> <!-- These provide a 'frame' for everything else -->
-<head> ... </head> <!-- These declare the head part -->
-<body> ... </body> <!-- ...and these the body part -->
-<h1> Title </h1> <!-- Titles! and there are more: h2, h3 -->
-<p> Lorem ips.. </p> <!-- Paragraphs for blocks of plain text -->
-<div> ... </div> <!-- A div tag, used very, very often. Especially for grouping elements -->
-<a href="catgif.jpg"> ... </a> <!-- A Link! The href part defines where it links to -->
-<input type="text"/> <!-- Declare some kind of user input, in this case a text input. Does not have a closing tag! -->
+<html> ... </html> 
+<!-- These provide a 'frame' for everything else -->
+<head> ... </head> 
+<!-- These declare the head part -->
+<body> ... </body> 
+<!-- ...and these the body part -->
+<h1> Title </h1> 
+<!-- Titles! and there are more: h2, h3 -->
+<p> Lorem ips.. </p> 
+<!-- Paragraphs for blocks of plain text -->
+<div> ... </div> 
+<!-- A div tag, used very, very often. Especially for grouping elements -->
+<a href="catgif.jpg"> ... </a> 
+<!-- A Link! The href part defines where it links to -->
+<input type="text"/> 
+<!-- Declare some kind of user input, in this case a text input. Does not have a closing tag! -->
  ```
 
  <!--s-->
 
 ### Attributes
 
-Attributes can be added to a tag in order to define an aspect of its functionality. There are four kinds of Attributes:
+Attributes can be added to a tag in order to define an aspect of its functionality. There are four kinds of attributes:
  <!-- .element: class="fragment" data-fragment-index="1" -->
 
 <!--s-->
@@ -97,9 +105,12 @@ Attributes can be added to a tag in order to define an aspect of its functionali
 
 
 ```html
-<input type="text"> <!-- The attribute is the 'type="text"' part.  -->
-<input type="checkbox"> <!-- This is also a valid attribute for an input element -->
-<input type="someinput"> <!-- This wont do!>
+<input type="text"> 
+<!-- The attribute is the 'type="text"' part.  -->
+<input type="checkbox"> 
+<!-- This is also a valid attribute for an input element -->
+<input type="someinput"> 
+<!-- This wont do!>
 ```
 
 <!--s-->
@@ -107,9 +118,25 @@ Attributes can be added to a tag in order to define an aspect of its functionali
 * attributes with values that need to match some format, but can be chosen freely
 
 ```html
-<input type="text" maxlenght="10"> <!-- Multiple attributes are possible! This input element is of the 'text' kind, but only allows 10 characters as input. -->
-<input type="text" maxlength="100"> <!-- But you can make it a 100 as well! As long as the value of the attribute is a positive integer, it doesn't matter. -->
-<input type="text" maxlength="unicorn"> <!-- Won't do either. unicorn is not an integer -->
+<input type="text" maxlenght="10"> 
+<!-- Multiple attributes are possible! 
+This input element is of the 'text' kind,
+but only allows 10 characters as input. -->
+```
+<!--v-->
+
+```html
+<input type="text" maxlength="100"> 
+<!-- But you can make it a 100 as well! 
+As long as the value of the attribute is 
+a positive integer, it doesn't matter. -->
+```
+
+<!--v-->
+
+```html
+<input type="text" maxlength="unicorn"> 
+<!-- Won't do either. unicorn is not an integer -->
 ```
 
 <!--s-->
@@ -125,7 +152,10 @@ Attributes can be added to a tag in order to define an aspect of its functionali
 * standalone attributes
 
 ```html
-<input type="text" readonly> <!-- Because of the 'readonly' attribute, a user won't be able to modify the text in the input field -->
+<input type="text" readonly> 
+<!-- Because of the 'readonly' attribute,
+ a user won't be able to modify the text 
+ in the input field -->
 ```
 
 <!--s-->
