@@ -64,14 +64,14 @@ StyleTag:
 ```html
 <html>
 <head>
-    <title>About Rusty</title>
+    <title>About Cheezy</title>
     <style type="text/css">
         li {
 	    color: red;
 	}
     </style>
 </head>
-````
+```
 
 <h3 style="color:red">Slightly better, but not GOOD</h3>
 <!-- .element: class="fragment" data-fragment-index="1" -->
