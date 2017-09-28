@@ -4,8 +4,7 @@ separator: <!-- s -->
 verticalSeparator: ---
 theme: solarized
 ---
-# Web Basics
-### JavaScript
+# JavaScript Basics
 <!-- s -->
 # Basic syntax
 ---
