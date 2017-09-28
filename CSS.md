@@ -428,8 +428,8 @@ div {
 
 p {
     position: absolute;
-    // possible values:
-    // static, absolute, fixed, relative, sticky, initial, inherit
+    /* possible values: */
+    /* static, absolute, fixed, relative, sticky, initial, inherit */
 	
 }
 ```
