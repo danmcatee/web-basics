@@ -389,7 +389,11 @@ div{
 
 <img src=https://pressupinc.com/wp-content/uploads/2014/01/box-model.png width=260 height=260 />
 
-### Example
+<!--v-->
+
+# Examples
+
+<!--v-->
 
 ```css
 div {
@@ -406,7 +410,11 @@ div {
 p {
     border: 5px solid red;
 }
+```
 
+<!--v-->
+
+```css
  div {
     margin-top: 100px;
     margin-right: 150px;
@@ -424,7 +432,6 @@ p {
     // static, absolute, fixed, relative, sticky, initial, inherit
 	
 }
-
 ```
 
 -> F&uuml;r diese Beispiele habe ich ein extra HTML-file angelegt. 
